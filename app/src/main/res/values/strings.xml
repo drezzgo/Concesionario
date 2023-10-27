@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Concesionario</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="boton_iniciar_sesi_n">Boton de Iniciar Sesión</string>
+    <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
+</resources>
