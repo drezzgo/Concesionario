@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/historial"
+        android:title="@string/historial"
+        android:icon="@drawable/baseline_history_24"/>
+    <item
+        android:id="@+id/carros"
+        android:title="@string/carros"
+        android:icon="@drawable/baseline_directions_car_24"/>
+    <item
+        android:id="@+id/sucursales"
+        android:title="@string/sucursales"
+        android:icon="@drawable/baseline_home_work_24"/>
+    <item
+        android:id="@+id/empleados"
+        android:title="@string/empleados"
+        android:icon="@drawable/baseline_supervised_user_circle_24"/>
+</menu>

@@ -19,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intento);
     }
     public void IrARegistro(View v){
-        Intent intento=new Intent(this, Registro.class);
+        Intent intento=new Intent(this, Login.class);
+        intento.putExtra("switch_activado", true);
         startActivity(intento);
     }
 
