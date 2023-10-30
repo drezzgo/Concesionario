@@ -15,10 +15,4 @@
     <string name="registrate">Registrate</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="olvidaste_tu_contrase_a">¿Olvidaste tu contraseña?</string>
-    <string name="nombre">Nombre</string>
-    <string name="confirmar_contra">Confirmar Contraseña</string>
-    <string name="historial">historial</string>
-    <string name="carros">carros</string>
-    <string name="sucursales">sucursales</string>
-    <string name="empleados">empleados</string>
 </resources>
