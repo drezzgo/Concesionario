@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Concesionario</string>
     <string name="vamos">¡ Vamos !</string>
-    <string name="iniciar_sesi_n">Iniciar Sesión</string>
-    <string name="boton_iniciar_sesi_n">Boton de Iniciar Sesión</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="boton_iniciar_sesi_n">Boton de iniciar sesión</string>
     <string name="registrarse">Registrarse</string>
     <string name="email">Email</string>
     <string name="contrase_a">Contraseña</string>
@@ -10,4 +10,7 @@
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut purus id erat scelerisque bibendum sed vel urna.</string>
     <string name="nombre_de_la_sucursal">Nombre de la sucursal</string>
     <string name="direccion">Direccion</string>
+    <string name="kurumapp">Kurumapp</string>
+    <string name="no_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate">Registrate</string>
 </resources>

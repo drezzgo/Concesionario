@@ -14,12 +14,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Login(View v){
+    public void IrALogin(View v){
         Intent intento=new Intent(this, Login.class);
         startActivity(intento);
     }
-    public void Registro(View v){
-        Intent intento=new Intent(this, Registro.class);
-        startActivity(intento);
-    }
+
 }
