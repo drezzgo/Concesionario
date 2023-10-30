@@ -42,11 +42,11 @@
         android:layout_height="60dp"
         android:backgroundTint="@color/Delft_blue"
         android:fontFamily="@font/Nunito_Light"
-        android:onClick="IrALogin"
         android:text="@string/iniciar_sesi_n"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:onClick="IrALogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -84,8 +84,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/Nunito_Light"
+            android:onClick="IrARegistro"
             android:text="@string/registrate"
             android:textColor="@color/UCLA_blue"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

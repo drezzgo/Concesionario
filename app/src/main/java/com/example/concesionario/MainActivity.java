@@ -18,5 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intento=new Intent(this, Login.class);
         startActivity(intento);
     }
+    public void IrARegistro(View v){
+        Intent intento=new Intent(this, Registro.class);
+        startActivity(intento);
+    }
 
 }
