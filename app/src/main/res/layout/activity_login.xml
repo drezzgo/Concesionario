@@ -2,77 +2,136 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Delft_blue"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Login">
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/LeagueGothic_normal"
+        android:letterSpacing="0.05"
+        android:text="@string/kurumapp"
+        android:textColor="@color/Mint_cream"
+        android:textSize="60sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="32dp"
-        android:layout_marginVertical="32dp"
-        android:layout_marginTop="32dp"
-        android:orientation="vertical"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2">
-
-        <EditText
-            android:id="@+id/Name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:paddingBottom="16dp"
-            android:text="@string/nombre_de_la_sucursal" />
-
-        <EditText
-            android:id="@+id/Direccion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:paddingBottom="16dp"
-            android:text="@string/direccion" />
-
-        <EditText
-            android:id="@+id/Password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:paddingBottom="16dp" />
-
-        <EditText
-            android:id="@+id/PasswordC"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword"
-            android:paddingBottom="16dp" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="90dp"
+        android:background="@color/Mint_cream"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Caja"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:cardBackgroundColor="@color/UCLA_blue"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.317"
+        tools:ignore="TextSizeCheck">
+
+        <LinearLayout
+            android:id="@+id/contenidoOriginal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginTop="16dp"
+                tools:ignore="TouchTargetSizeCheck,UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="28dp"
+                android:fontFamily="@font/Nunito_normal"
+                android:letterSpacing="0.04"
+                android:text="@string/bienvenido"
+                android:textAlignment="center"
+                android:textColor="@color/Mint_cream"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="5dp"
+                android:autofillHints=""
+                android:backgroundTint="@color/Mint_cream"
+                android:ems="30"
+                android:fontFamily="@font/Nunito_Light"
+                android:inputType="text"
+                android:text="@string/email"
+                android:textColor="@color/Mint_cream"
+                android:textSize="16sp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/editTextText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="28dp"
+                android:autofillHints=""
+                android:backgroundTint="@color/Mint_cream"
+                android:ems="10"
+                android:fontFamily="@font/Nunito_Light"
+                android:inputType="text"
+                android:text="@string/contra"
+                android:textColor="@color/Mint_cream"
+                android:textSize="16sp"
+                tools:ignore="LabelFor,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="@color/Delft_blue"
+                android:fontFamily="@font/Nunito_Light"
+                android:text="@string/iniciar_sesi_n"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/Nunito_Light"
+                android:text="@string/olvidaste_tu_contrase_a"
+                android:textAlignment="center"
+                android:textColor="@color/Mint_cream"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

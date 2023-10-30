@@ -23,6 +23,7 @@
 
     <TextView
         android:id="@+id/textView"
+        android:letterSpacing="0.05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
